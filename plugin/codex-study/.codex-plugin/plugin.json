@@ -1,0 +1,11 @@
+{
+  "name": "cet4-study",
+  "version": "0.2.0",
+  "description": "四级精练：答题、划词、标记、笔记与一次讨论",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "四级精练",
+    "shortDescription": "读题、标记、积累，再一起讨论",
+    "category": "Productivity"
+  }
+}

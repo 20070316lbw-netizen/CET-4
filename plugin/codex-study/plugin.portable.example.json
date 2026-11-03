@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cet4-study",
+  "version": "0.2.0",
+  "description": "在对话旁刷四级真题，划词、答题、标记、记笔记并积累后统一讨论。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "四级精练",
+        "shortDescription": "读题、标记、积累，再一起讨论",
+        "category": "Education"
+      }
+    }
+  }
+}

@@ -4,3 +4,10 @@
 *.log
 *.out
 *.synctex.gz
+
+# CET-4 study plugin runtime state
+plugin/cet4-study/.state/
+plugin/cet4-study/node_modules/
+
+# Codex 四级精练本地学习状态
+.codex-study/

@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>四级精练</title><style>/*__CSS__*/</style></head><body>
+<header><div class="brand"><span class="eyebrow">CET–4 · 阅读与思考</span><h1>四级精练</h1><p>读一段，想清楚，再一起讨论。</p></div><span id="connection" class="status">正在连接…</span></header>
+<div class="library-bar"><label>试卷 <select id="exam" aria-label="选择试卷"></select></label><button id="import-open">导入试卷</button></div>
+<section id="import-panel" hidden aria-label="导入试卷"><div class="import-heading"><h2>导入新试卷</h2><button id="import-close">返回刷题</button></div><p class="hint">选择 PDF，识别后先核对题目，再加入试卷库。原卷和已有记录会保留。</p><label>选择 PDF <input id="import-file" type="file" accept="application/pdf,.pdf"></label><p class="hint">或填写学习目录内的 PDF 路径：</p><input id="import-path" placeholder="/Users/liu/CET-4/新试卷/新试卷.pdf" aria-label="PDF 路径"><button id="import-extract" class="primary">识别并预览</button><p id="import-status" role="status"></p><div id="import-result"></div></section>
+<div id="practice">
+<nav id="parts" aria-label="试卷部分"></nav><div class="subbar"><select id="unit" aria-label="选择小节"></select><label>字号 <select id="size"><option value="17">适中</option><option value="19">大</option><option value="21">更大</option></select></label></div>
+<div class="workspace"><main id="paper" aria-label="题目内容"></main><aside id="toolbox"><h2>工具框</h2><nav id="tools" aria-label="学习工具"></nav><section id="inspector"></section></aside></div>
+</div>
+<footer><span id="save">正在读取记录</span><button id="reload">刷新记录</button><span id="progress"></span></footer>
+<div id="selection" hidden><span id="selected-text"></span><button data-take="mark">标记</button><button data-take="word">单词</button><button data-take="phrase">短语</button><button data-take="sentence">句子</button><button data-take="question">加入讨论</button><button data-take="note">记笔记</button><button id="cancel-selection" aria-label="取消划选">×</button></div>
+<div id="toast" role="status" aria-live="polite"></div><script>/*__APP__*/</script></body></html>

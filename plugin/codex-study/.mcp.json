@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "study": {
+      "command": "/opt/homebrew/bin/node",
+      "args": [
+        "/Users/liu/CET-4/plugin/codex-study/server.mjs"
+      ],
+      "env": {
+        "CET4_ROOT": "/Users/liu/CET-4"
+      },
+      "tool_timeout_sec": 300
+    }
+  }
+}

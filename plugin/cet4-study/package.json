@@ -1,0 +1,34 @@
+{
+  "name": "@local/cet4-study",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CET-4 practice panel in the right sidebar: read the paper by part, mark answers, collect unknown words/phrases into the workspace tables.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "vocab-csv.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "locale/*.yml",
+    "icon.svg",
+    "content/exams/*.json"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+- insert:
+    - id: cet4-study
+      name: '@local/cet4-study'
+      config:
+        root: '/Users/liu/CET-4'
